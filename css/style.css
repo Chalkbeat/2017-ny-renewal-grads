@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.control-wrapper {
+  text-align: center;
+}
+
+.control-wrapper select {
+  margin: 10px 0;
+  font-size: 16px;
+  max-width: 304px;
+}
+
+select option {
+  padding: 5px;
+}
+
+#frame svg {
+
+}
+
+#frame .c3-chart-lines path.c3-line {
+  stroke-width: 3px;
+}
+
+#frame text {
+  font-size: 16px !important;
+  fill: #666666;
+}
+
+.control-wrapper.key {
+  max-width: 650px;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.control-section {
+  margin: 10px 0;
+}
+
+.key-row {
+  margin: 5px 0;
+}
+
+.key-row .block {
+  padding: 0px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+  background: #ddd;
+}
+
+.key-row .block.selected {
+  background: rgba(44, 62, 80,1.0);
+}
+
+.key-row:nth-child(0) .block.comps {
+  background: rgba(46, 204, 113,0.5);
+}
+
+.key-row:nth-child(1) .block.comps {
+  background: rgba(241, 196, 15,0.5);
+}
+
+.key-row:nth-child(2) .block.comps {
+  background: rgba(231, 76, 60,0.5);
+}
+
+.key-row .block.renewal {
+  background: rgba(52, 152, 219, 0.1);
+  padding: 10px 20px;
+  display: block;
+}
